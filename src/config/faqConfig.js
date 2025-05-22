@@ -1,5 +1,5 @@
 export const faqConfig = {
-  title: "Common Queries",
+  title: "Common Questions",
   subtitle: "All you need to know about the Zerion platform.",
   questions: [
     {
