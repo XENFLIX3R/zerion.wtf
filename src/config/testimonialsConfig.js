@@ -6,21 +6,21 @@ export const testimonialsConfig = {
       author: "Cod0000",
       role: "Premium User",
       rating: 4,
-      initial: "Cod"
+      initial: "C"
     },
     {
       text: "Premium Plan was an excellent offer, it is overpowered i would recommend getting this Premium Plan",
       author: "xlocksz",
       role: "Premium User",
       rating: 5,
-      initial: "Sloth"
+      initial: "X"
     },
     {
       text: "Its good, for my opinion about this is Standard Plan Is Probably one of the best plans in my life for my personal opinion",
       author: "LouisFishies",
       role: "Standard User",
       rating: 4,
-      initial: "PurpleVista"
+      initial: "LF"
     }
   ]
 };
