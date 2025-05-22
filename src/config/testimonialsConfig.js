@@ -1,5 +1,5 @@
 export const testimonialsConfig = {
-  title: "Praised by Our Community",
+  title: "Loved by Our Community",
   items: [
     {
       text: "premium plan is very op. I love its features. I can use anything scripts with this one! I recommend you use solar for powerful control!",
@@ -9,7 +9,7 @@ export const testimonialsConfig = {
       initial: "Cod"
     },
     {
-      text: "Premium Plan was an excellent offer, it is overpowered i would recommend getting this Premium Plan"",
+      text: "Premium Plan was an excellent offer, it is overpowered i would recommend getting this Premium Plan",
       author: "xlocksz",
       role: "Premium User",
       rating: 5,
