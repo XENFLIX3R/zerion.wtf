@@ -2,25 +2,25 @@ export const testimonialsConfig = {
   title: "Praised by Our Community",
   items: [
     {
-      text: "Zerion Premium is a total game-changer. The exclusive games and fewer restrictions are absolutely worth it!",
-      author: "Casey B.",
+      text: "premium plan is very op. I love its features. I can use anything scripts with this one! I recommend you use solar for powerful control!",
+      author: "Cod0000",
       role: "Premium User",
-      rating: 5,
-      initial: "C"
+      rating: 4,
+      initial: "Cod"
     },
     {
-      text: "Been on Zerion Standard for a while. Love the constant game updates and the super helpful community.",
-      author: "Morgan P.",
+      text: "Premium Plan was an excellent offer, it is overpowered i would recommend getting this Premium Plan"",
+      author: "xlocksz",
+      role: "Premium User",
+      rating: 5,
+      initial: "Sloth"
+    },
+    {
+      text: "Its good, for my opinion about this is Standard Plan Is Probably one of the best plans in my life for my personal opinion",
+      author: "LouisFishies",
       role: "Standard User",
-      rating: 5,
-      initial: "M"
-    },
-    {
-      text: "Serverside execution with Zerion is phenomenal. It's like the golden era of scripting is back, but better!",
-      author: "Riley J.",
-      role: "Premium User",
-      rating: 5,
-      initial: "R"
+      rating: 4,
+      initial: "PurpleVista"
     }
   ]
 };
