@@ -1,44 +1,42 @@
-const discordLink = "https://discord.gg/EqhVZgsd92";
-
 export const featuresConfig = {
-  title: "Core Advantages",
-  subtitle: "Discover why Zerion stands as the top-tier choice for scripters and gamers.",
+  title: "Why Choose Zerion?",
+  subtitle: "Experience unmatched power and reliability with our serverside solution.",
   items: [
     {
+      icon: "Shield",
+      title: "Byfron Bypass",
+      description: "Built directly into the game, completely bypassing Hyperion protection.",
+      learnMoreLink: "#faq"
+    },
+    {
       icon: "Zap",
-      title: "Hyper-Speed Execution",
-      description: "Leverage our fine-tuned serverside engine for instantaneous script performance.",
+      title: "Lightning Fast",
+      description: "Experience instant script execution with our optimized serverside infrastructure.",
+      learnMoreLink: "#showcases"
+    },
+    {
+      icon: "Download",
+      title: "No Downloads",
+      description: "Zero installation required - everything runs server-side for instant access.",
+      learnMoreLink: "#pricing"
+    },
+    {
+      icon: "Users",
+      title: "Full FE Support",
+      description: "Execute scripts visible to all players in the server for maximum impact.",
+      learnMoreLink: "#showcases"
+    },
+    {
+      icon: "Code",
+      title: "Script Library",
+      description: "Access our exclusive collection of powerful, tested scripts.",
       learnMoreLink: "#pricing"
     },
     {
       icon: "Shield",
-      title: "Stealth Operations",
-      description: "Our sophisticated cloaking mechanisms ensure your activities remain under the radar.",
+      title: "Anti-Detection",
+      description: "Stay undetected with our advanced serverside implementation.",
       learnMoreLink: "#faq"
-    },
-    {
-      icon: "Code",
-      title: "Rich Script Ecosystem",
-      description: "Dive into an ever-expanding library of potent scripts to amplify your gameplay.",
-      learnMoreLink: "#showcases" 
-    },
-    {
-      icon: "Users",
-      title: "Vibrant Community",
-      description: "Connect with fellow users for support, insights, and script collaboration.",
-      learnMoreLink: discordLink 
-    },
-    {
-      icon: "Puzzle",
-      title: "Effortless Game Sync",
-      description: "Integrate Zerion smoothly with your preferred gaming environments.",
-      learnMoreLink: "#"
-    },
-    {
-      icon: "RefreshCw",
-      title: "Continuous Evolution",
-      description: "Benefit from consistent updates, bringing new capabilities and enhancements.",
-      learnMoreLink: "#"
     }
   ]
 };

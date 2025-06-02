@@ -1,22 +1,22 @@
 export const testimonialsConfig = {
-  title: "Loved by Our Community",
+  title: "What Our Users Say",
   items: [
     {
-      text: "premium plan is very op. I love its features. I can use anything scripts with this one! I recommend you use solar for powerful control!",
+      text: "Premium plan is incredible! The execution speed and script library are unmatched. Definitely worth every penny!",
       author: "Cod0000",
       role: "Premium User",
-      rating: 4,
+      rating: 5,
       initial: "C"
     },
     {
-      text: "Premium Plan was an excellent offer, it is overpowered i would recommend getting this Premium Plan",
+      text: "The serverside execution is a game-changer. No more worrying about anti-cheats or detection. Simply amazing!",
       author: "xlocksz",
       role: "Premium User",
       rating: 5,
       initial: "X"
     },
     {
-      text: "Its good, for my opinion about this is Standard Plan Is Probably one of the best plans in my life for my personal opinion",
+      text: "Started with Standard plan and it's already exceeding expectations. The FE support is exactly what I needed.",
       author: "LouisFishies",
       role: "Standard User",
       rating: 4,

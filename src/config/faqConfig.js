@@ -1,30 +1,30 @@
 export const faqConfig = {
-  title: "Common Questions",
-  subtitle: "All you need to know about the Zerion platform.",
+  title: "Frequently Asked Questions",
+  subtitle: "Get answers to common questions about Zerion's serverside executor.",
   questions: [
     {
-      question: "How are new games added?",
-      answer: "Our dedicated team consistently adds new game support. Community suggestions and contributions are also vital to our expansion."
+      question: "How does Zerion bypass Byfron/Hyperion?",
+      answer: "Zerion operates entirely server-side, integrated directly into the game environment. This means it completely bypasses client-side anti-cheat systems like Byfron/Hyperion, as no local modifications are required."
     },
     {
-      question: "Is Zerion Safe?",
-      answer: "Absolutely! Zerion operates entirely server-side, meaning there are no downloads or modifications to your game client. This ensures your account safety and a fair gaming environment."
+      question: "Is Zerion safe to use?",
+      answer: "Yes! Since Zerion runs server-side, there's no risk of client detection or bans. Our implementation ensures your account stays secure while maintaining full functionality."
     },
     {
-      question: "How to avoid account blacklisting?",
-      answer: "Adhere to our usage guidelines: no account sharing, no malicious use of Zerion, and full respect for our terms of service."
+      question: "How do I start using Zerion?",
+      answer: "Simply purchase your preferred plan, and you'll receive instant access. No downloads or installations needed - just join any supported game and start executing!"
     },
     {
-      question: "Can a blacklist be appealed?",
-      answer: "Blacklist appeals can be made via our Discord. Each case is reviewed individually, with decisions based on the violation's nature."
+      question: "What makes Zerion different from other executors?",
+      answer: "Zerion is fully server-sided, meaning everything you execute is visible to everyone in the server. This provides unique capabilities not possible with traditional client-side executors."
     },
     {
-      question: "Can i get banned for using Zerion?",
-      answer: "Since Zerion is fully server-sided and doesn't require any client modification, the risk is significantly lower compared to traditional client-side cheats. However, always be mindful of game developers' terms of service."
+      question: "Do you offer refunds?",
+      answer: "We offer refunds within 24 hours of purchase if you experience technical issues. Contact our support team through Discord for assistance."
     },
     {
-      question: "How can I buy Zerion?",
-      answer: "Purchase Zerion directly from our website/discord. We support various payment methods, including credit/debit cards, Cashapp, Etc.."
+      question: "Which games are supported?",
+      answer: "Zerion works with a growing list of popular games. Check our Discord for the current list of supported games and regular updates."
     }
   ]
 };
