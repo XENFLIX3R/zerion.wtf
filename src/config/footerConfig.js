@@ -7,15 +7,11 @@ export const footerConfig = {
       { name: "Showcase", href: "#showcases" },
       { name: "FAQ", href: "#faq" }
     ],
-    company: [
-      { name: "About Us", href: "#" },
-      { name: "Contact", href: "#" },
-      { name: "Partners", href: "#" }
-    ],
     legal: [
-      { name: "Terms of Service", href: "#" },
-      { name: "Privacy Policy", href: "#" },
-      { name: "Refund Policy", href: "#" }
+      { name: "Terms of Service", href: "/terms-of-service" },
+      { name: "Privacy Policy", href: "/privacy-policy" },
+      { name: "Refund Policy", href: "/refund-policy" },
+      { name: "Software Protection", href: "/software-protection" }
     ]
   }
 };

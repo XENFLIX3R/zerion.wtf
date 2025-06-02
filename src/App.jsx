@@ -9,13 +9,14 @@ import Footer from "@/components/layout/footer";
 import Hero from "@/components/sections/hero";
 import Features from "@/components/sections/features";
 import Showcases from "@/components/sections/showcases"; 
-import CTA from "@/components/sections/cta";
 import Support from "@/components/sections/support";
 import FAQ from "@/components/sections/faq";
 import Pricing from "@/components/sections/pricing";
 import Testimonials from "@/components/sections/testimonials";
-import FinalCTA from "@/components/sections/final-cta";
-
+import RefundPolicy from "@/components/pages/RefundPolicy";
+import PrivacyPolicy from "@/components/pages/PrivacyPolicy";
+import TermsOfService from "@/components/pages/TermsOfService";
+import SoftwareProtection from "@/components/pages/SoftwareProtection";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -60,11 +61,9 @@ const MainLayout = () => {
         <Features />
         <Showcases />
         <Testimonials /> 
-        <CTA />
         <Support />
         <FAQ />
         <Pricing />
-        <FinalCTA />
       </motion.main>
       <Footer />
     </>
@@ -78,7 +77,11 @@ const App = () => {
       <AnimatePresence mode="wait">
         <div className="min-h-screen bg-black text-white">
           <Routes>
-            <Route path="/*" element={<MainLayout />} />
+            <Route path="/" element={<MainLayout />} />
+            <Route path="/refund-policy" element={<RefundPolicy />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms-of-service" element={<TermsOfService />} />
+            <Route path="/software-protection" element={<SoftwareProtection />} />
           </Routes>
           <Toaster />
         </div>
